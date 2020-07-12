@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Payrool-2/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Payrool-2/static/js/main.5c4c53da.chunk.js",
-    "main.js.map": "/Payrool-2/static/js/main.5c4c53da.chunk.js.map",
+    "main.js": "/Payrool-2/static/js/main.4c470d72.chunk.js",
+    "main.js.map": "/Payrool-2/static/js/main.4c470d72.chunk.js.map",
     "runtime-main.js": "/Payrool-2/static/js/runtime-main.8200abcf.js",
     "runtime-main.js.map": "/Payrool-2/static/js/runtime-main.8200abcf.js.map",
     "static/js/2.c67a0b97.chunk.js": "/Payrool-2/static/js/2.c67a0b97.chunk.js",
     "static/js/2.c67a0b97.chunk.js.map": "/Payrool-2/static/js/2.c67a0b97.chunk.js.map",
     "index.html": "/Payrool-2/index.html",
-    "precache-manifest.7745228e1b7c2cdc4f6dc2475e15af03.js": "/Payrool-2/precache-manifest.7745228e1b7c2cdc4f6dc2475e15af03.js",
+    "precache-manifest.1dc4651ea8e662e0500c4a33253164d8.js": "/Payrool-2/precache-manifest.1dc4651ea8e662e0500c4a33253164d8.js",
     "service-worker.js": "/Payrool-2/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/Payrool-2/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.c67a0b97.chunk.js.LICENSE.txt": "/Payrool-2/static/js/2.c67a0b97.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.8200abcf.js",
     "static/js/2.c67a0b97.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.5c4c53da.chunk.js"
+    "static/js/main.4c470d72.chunk.js"
   ]
 }
