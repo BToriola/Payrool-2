@@ -53,10 +53,7 @@ const Admin = () => {
                                     <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
                                     <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
                                 </div>
-                                <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                                    <span data-feather="calendar"></span>
-            This week
-          </button>
+                                
                             </div>
                         </div>
 

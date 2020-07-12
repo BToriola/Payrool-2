@@ -17,8 +17,8 @@ const Navbar = () => {
             <nav class="my-2 my-md-0 mr-md-3">
                 <Link to='/admin' class="p-2 text-dark" href="#">Admin</Link>
                 <Link to='/employee' class="p-2 text-dark" href="#">Employee</Link>
-                <a class="p-2 text-dark" href="#">Tax Filling</a>
-                <a class="p-2 text-dark" href="#">Compensation Admin</a>
+                <Link to='/tax' class="p-2 text-dark" href="#">Tax Filling</Link>
+                <Link to = '/compensation' class="p-2 text-dark" href="#">Compensation Admin</Link>
             </nav>
            
         </div>
