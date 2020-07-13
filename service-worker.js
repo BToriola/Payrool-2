@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Payrool-2/precache-manifest.1dc4651ea8e662e0500c4a33253164d8.js"
+  "/Payrool-2/precache-manifest.bede8a3289545ed0b8dd3dedb387722b.js"
 );
 
 self.addEventListener('message', (event) => {
