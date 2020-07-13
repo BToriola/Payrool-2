@@ -6,6 +6,8 @@ import pictureURL from './assets/Abiola.jpeg'
 const EmployeeFullDetails = (props) => {
     const [details, setDetails] = useState('')
 
+    const total = (props.details && parseInt(props.details.item.salary) + parseInt(props.details.item.housing )+ parseInt(props.details.item.pension))
+
     // useEffect(() => {
     //     if(props.details !== '')
     //     setDetails(props.details)
@@ -24,6 +26,7 @@ const EmployeeFullDetails = (props) => {
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-employee" role="tabpanel" aria-labelledby="nav-employee-tab"> <div class="container">
+    <p>Click on the name row to see details below</p>
     <div class="row mt-4">
         <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="well well-sm">
@@ -55,8 +58,24 @@ const EmployeeFullDetails = (props) => {
     </div>
 </div>
 </div>
-                                <div class="tab-pane fade" id="nav-salary" role="tabpanel" aria-labelledby="nav-salary-tab">h</div>
-                                <div class="tab-pane fade" id="nav-compensation" role="tabpanel" aria-labelledby="nav-compensation-tab">  <div class="row mb-2">
+                                <div class="tab-pane fade" id="nav-salary" role="tabpanel" aria-labelledby="nav-salary-tab"><div class="col-md-6 text-left">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 mt-4  shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+        <h4>
+                        {props.details && props.details.item.firstname} &nbsp;<span>{props.details && props.details.item.lastname}</span></h4>
+                        <small><cite title="San Francisco, USA">{props.details && props.details.item.address} <i class="glyphicon glyphicon-map-marker">
+                        </i></cite></small>
+          <strong class="d-inline-block mb-2 text-success">Basic Salary: <span class='text-secondary'>{props.details && props.details.item.salary}</span></strong>
+          <strong class="d-inline-block mb-2 text-success">Housing Allowance: <span class='text-secondary'>{props.details && props.details.item.housing}</span></strong>
+          <strong class="d-inline-block mb-2 text-success">Pension: <span class='text-secondary'>{props.details && props.details.item.pension}</span></strong>
+          <strong class="d-inline-block mb-2 text-success">Total: <span class='text-secondary'>{total}</span></strong>
+       
+          
+        </div>
+        
+      </div>
+    </div></div>
+                                <div class="tab-pane fade" id="nav-compensation" role="tabpanel" aria-labelledby="nav-compensation-tab">  <div class="row mb-2 mt-4">
     <div class="col-md-6 text-left">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">

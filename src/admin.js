@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link }from 'react-router-dom'
 import Navbar from './Navbar'
+import Footer from './footer'
 
 const Admin = () => {
     return (
@@ -55,12 +56,19 @@ const Admin = () => {
                                 </div>
                                 
                             </div>
+                            
                         </div>
+                        <div class="jumbotron">
+    <h1>Run Payroll</h1>
+    <p class="lead">Your total payroll cost is $1900.</p>
+    <Link to = '/employee' class="btn btn-lg btn-primary" href="/docs/4.4/components/navbar/" role="button">View more info to see employee details &raquo;</Link>
+  </div>
 
                         <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
                     </main>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

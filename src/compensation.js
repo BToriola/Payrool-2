@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
+import {Link }from 'react-router-dom'
+import Footer from './footer'
 
 const Compensation = () => {
   return (
@@ -16,14 +18,17 @@ const Compensation = () => {
     <h1 class="cover-heading">Compensation Plan.</h1>
     <p class="lead">Coming up soon...</p>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+      <Link to='/employee'  class="btn btn-lg btn-outline-success">Payroll details</Link>&nbsp;
+      <a href="#" class="btn btn-lg btn-outline-success">Payroll cycle</a>&nbsp;
+      <Link to='/review'  class="btn btn-lg btn-outline-success">Revies and Approvals</Link>&nbsp;
     </p>
   </main>
 
   <footer class="mastfoot mt-auto">
-    
+   
   </footer>
 </div>
+
 </div>
   )
 }

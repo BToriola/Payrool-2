@@ -16,7 +16,8 @@ const Tax = () => {
     <h1 class="cover-heading">Tax filling.</h1>
     <p class="lead">Coming up soon...</p>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+      <a href="#" class="btn btn-lg btn-secondary">Statutory remittances</a> &nbsp;
+      <a href="#" class="btn btn-lg btn-secondary">Remittance schedule</a>
     </p>
   </main>
 
